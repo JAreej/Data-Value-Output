@@ -16,4 +16,3 @@ buildNumber.properties
 .classpath
 
 src/main/java/util/Config.java
-/bin/
