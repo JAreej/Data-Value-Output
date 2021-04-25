@@ -1,0 +1,5 @@
+"Variable / Field Name","Form Name","Section Header","Field Type","Field Label","Choices, Calculations, OR Slider Labels","Field Note","Text Validation Type OR Show Slider Number","Text Validation Min","Text Validation Max",Identifier?,"Branching Logic (Show field only if...)","Required Field?","Custom Alignment","Question Number (surveys only)","Matrix Group Name","Matrix Ranking?","Field Annotation"
+record_id,form_1,,text,"Record ID",,,,,,,,,,,,,
+gender,form_1,,dropdown,Gender,"male, male | female, female | intersex, intersex",,,,,,,y,,,,,http://sfb125.de/ontology/factorontology/gender
+hepatitis_b,form_1,,yesno,"Chronic Hepatitis B",,,,,,,,y,,,,,http://sfb125.de/ontology/ihCCApplicationOntology/chronic_hepatitis_b_observation
+bilirubin_concentration,form_1,,text,"Bilirubin Concentration (mg/DL)",,,number,0,50,,,y,,,,,http://sfb125.de/ontology/ihCCApplicationOntology/bilirubin_concentration
